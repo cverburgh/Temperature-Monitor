@@ -218,7 +218,7 @@ void submitValue(int value) {
 
 bool registerByMacAddress() {
 	Serial.println("Registering...");
-	
+	 
 	HTTPClient http;  //Object of class HTTPClient
 
 	for (int i = 0; i < sensorTypes.length(); i++) {
